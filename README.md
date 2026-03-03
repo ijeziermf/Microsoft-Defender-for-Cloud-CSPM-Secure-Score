@@ -1,4 +1,4 @@
-# Lab 2 — Microsoft Defender for Cloud (CSPM) & Secure Score
+# Microsoft Defender for Cloud (CSPM) & Secure Score
 
 ## Overview
 This lab focuses on onboarding Azure resources into Microsoft Defender for Cloud, enabling Cloud Security Posture Management (CSPM), analyzing Secure Score, and implementing remediations across compute, networking, identity, and data protection.
