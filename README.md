@@ -29,7 +29,7 @@ After enabling CSPM at the **tenant level**, Defender began surfacing:
 - 3 High severity recommendations  
 
 **Screenshot:**  
-`![Enable CSPM](./screenshots/cspm-enable.png)`
+<img width="1402" height="1079" alt="Screenshot 2026-02-27 at 11 51 29 AM" src="https://github.com/user-attachments/assets/b6de68b1-4748-4fe8-bc74-e92ca6345a85" />
 
 ---
 
@@ -37,7 +37,7 @@ After enabling CSPM at the **tenant level**, Defender began surfacing:
 Connected my Log Analytics workspace for advanced analytics and compliance mapping.
 
 **Screenshot:**  
-`![LAW Connection](./screenshots/law-connection.png)`
+<img width="1784" height="896" alt="image" src="https://github.com/user-attachments/assets/c369decc-4ec3-4560-86ef-02512183bc39" />
 
 ---
 
@@ -105,7 +105,7 @@ My VM did not support enabling encryption at host because I originally **deselec
 This allowed the recommendation to resolve successfully.
 
 **Screenshot:**  
-`![Encryption at Host](./screenshots/encryption-fix.png)`
+<img width="2586" height="990" alt="Screenshot 2026-03-03 140020" src="https://github.com/user-attachments/assets/8ce76f68-c49d-494b-a157-0e473cbbf836" />
 
 <img width="1612" height="948" alt="Screenshot 2026-03-03 135911" src="https://github.com/user-attachments/assets/63e59d42-f005-49c7-9b73-012a6073f668" />
 
@@ -118,8 +118,8 @@ Mapped my environment to:
 - NIST 800-53  
 - CIS Controls  
 
-**Screenshot:**  
-`![Regulatory Compliance](./screenshots/regulatory-compliance.png)`
+**Screenshot:** 
+<img width="2348" height="1456" alt="image" src="https://github.com/user-attachments/assets/15c260c2-5950-4e58-aa2c-4dd3dc6e2c91" />
 
 ---
 
@@ -128,7 +128,7 @@ Mapped my environment to:
 Secure Score improved after applying remediations and enabling tenant-level CSPM.
 
 **Screenshot:**  
-`![Post Secure Score](./screenshots/secure-score-final.png)`
+<img width="1798" height="1180" alt="image" src="https://github.com/user-attachments/assets/f0d45dd8-fdfd-4734-b38f-9cc519caebfe" />
 
 ---
 
