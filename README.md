@@ -13,7 +13,7 @@ During this lab, I discovered that CSPM must be enabled **at the tenant level**,
 Enabled Defender for Cloud at the subscription level.
 
 **Screenshot:**  
-`![Enable Defender for Cloud](./screenshots/defender-enable.png)`
+<img width="1512" height="1084" alt="Screenshot 2026-02-26 at 1 08 34 AM" src="https://github.com/user-attachments/assets/e0d61dcc-5486-43ef-92be-8347a70e1bd4" />
 
 ---
 
@@ -47,7 +47,7 @@ Connected my Log Analytics workspace for advanced analytics and compliance mappi
 Secure Score initially showed **initializing**, then updated to **25%**, with **6/32 recommendations active**.
 
 **Screenshot:**  
-`![Initial Secure Score](./screenshots/secure-score-initial.png)`
+<img width="1358" height="1037" alt="Screenshot 2026-02-27 at 11 58 57 AM" src="https://github.com/user-attachments/assets/cbfc41e2-8a3f-4fb5-a42a-2966fb3060c1" />
 
 ---
 
@@ -58,9 +58,6 @@ Defender identified the following as the weakest areas:
 2. Compute  
 3. Data Protection  
 4. Identity & Access Management  
-
-**Screenshot:**  
-`![Control Families](./screenshots/control-families.png)`
 
 ---
 
@@ -77,7 +74,7 @@ Defender flagged my VM as internet-facing without an NSG.
 Secure Score did **not** change because this control was informational.
 
 **Screenshot:**  
-`![NSG Fix](./screenshots/nsg-fix.png)`
+<img width="1264" height="510" alt="image" src="https://github.com/user-attachments/assets/2d567fb0-1ca7-40f7-925c-611fa68b45fe" />
 
 ---
 
@@ -92,8 +89,8 @@ Defender recommended enforcing SSH key authentication.
 
 I intentionally used **no passphrase** for lab simplicity.
 
-**Screenshot:**  
-`![SSH Fix](./screenshots/ssh-fix.png)`
+**Screenshot:** 
+<img width="989" height="611" alt="Screenshot 2026-02-27 at 3 15 01 PM" src="https://github.com/user-attachments/assets/963c46d4-12c8-4633-97a8-8b6dacd6d7ca" />
 
 ---
 
@@ -109,6 +106,8 @@ This allowed the recommendation to resolve successfully.
 
 **Screenshot:**  
 `![Encryption at Host](./screenshots/encryption-fix.png)`
+
+<img width="1612" height="948" alt="Screenshot 2026-03-03 135911" src="https://github.com/user-attachments/assets/63e59d42-f005-49c7-9b73-012a6073f668" />
 
 ---
 
