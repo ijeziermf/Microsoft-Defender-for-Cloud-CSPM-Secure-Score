@@ -1,6 +1,6 @@
-# Microsoft Defender for Cloud — CSPM & Secure Score
+# Microsoft Defender for Cloud, CSPM & Secure Score
 
-> **Azure Cloud Security Posture Management — tenant-level CSPM onboarding, Secure Score remediation, NIST compliance mapping.**
+> **Azure Cloud Security Posture Management, tenant-level CSPM onboarding, Secure Score remediation, NIST compliance mapping.**
 
 ---
 
@@ -91,7 +91,7 @@ The key discovery: **CSPM must be enabled at the tenant level, not just subscrip
 | **Validation** | Recommendation resolved successfully |
 | **Secure Score Impact** | Data Protection control resolved |
 
-**Real-World Constraint:** This mirrors production cloud engineering limitations — some settings require resource recreation.
+**Real-World Constraint:** This mirrors production cloud engineering limitations, some settings require resource recreation.
 
 ---
 
@@ -114,7 +114,7 @@ Defender for Cloud maps environment to multiple compliance frameworks:
 | Challenge | Root Cause | Lesson |
 |---|---|---|
 | CSPM not showing risks | Enabled at subscription level only | **Always enable at tenant level** for full coverage |
-| Secure Score initialization delays | Defender evaluates resources in cycles | Normal behavior — allow time for assessment |
+| Secure Score initialization delays | Defender evaluates resources in cycles | Normal behavior, allow time for assessment |
 | VM hardening conflicts | Lab 1 hardening vs. Defender recommendations | Validate compensating controls, document deviations |
 | Encryption at host limitation | Setting only available at VM creation | Plan encryption requirements before deployment |
 
@@ -148,10 +148,10 @@ This lab demonstrates **hands-on cloud security implementation** for:
 
 ## Key Takeaways
 
-1. **Tenant-Level CSPM is Critical** — Subscription-level enablement misses Identity and Data Protection risks
-2. **Secure Score = Continuous Improvement** — Not a one-time fix, ongoing monitoring required
-3. **Cloud Hardening Has Constraints** — Some settings (encryption at host) require upfront planning
-4. **Compliance Mapping Adds Value** — Multiple frameworks demonstrate audit readiness
+1. **Tenant-Level CSPM is Critical**, Subscription-level enablement misses Identity and Data Protection risks
+2. **Secure Score = Continuous Improvement**, Not a one-time fix, ongoing monitoring required
+3. **Cloud Hardening Has Constraints**, Some settings (encryption at host) require upfront planning
+4. **Compliance Mapping Adds Value**, Multiple frameworks demonstrate audit readiness
 
 ---
 
